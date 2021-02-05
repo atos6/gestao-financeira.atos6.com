@@ -13114,6 +13114,12 @@ figcaption {
 
 .section-comp.bg-primary-2-fin {
   padding-top: 95px;
+  background-color: #e2e2e2;
+  color: #feb425;
+}
+
+.section-comp.bg-primary-3 {
+  padding-top: 95px;
   background-color: #39007c;
   color: #feb425;
 }
@@ -13373,6 +13379,153 @@ figcaption {
 .text-block-54 {
   font-family: Poppins, sans-serif;
   line-height: 26px;
+}
+
+.html-embed-2 {
+  margin-top: 0px;
+}
+
+.main-container-2-form {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  width: 100%;
+  max-width: 1296px;
+  margin-right: auto;
+  margin-left: auto;
+  padding: 0px 24px;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+  -webkit-flex-direction: column;
+  -ms-flex-direction: column;
+  flex-direction: column;
+  -webkit-box-align: center;
+  -webkit-align-items: center;
+  -ms-flex-align: center;
+  align-items: center;
+  -webkit-align-self: auto;
+  -ms-flex-item-align: auto;
+  align-self: auto;
+  -webkit-box-flex: 0;
+  -webkit-flex: 0 auto;
+  -ms-flex: 0 auto;
+  flex: 0 auto;
+}
+
+.section-form {
+  padding-top: 95px;
+  padding-bottom: 95px;
+  background-color: #f5f5f5;
+}
+
+.section-form.bg-gray-3 {
+  background-color: rgba(0, 0, 0, 0.03);
+}
+
+.section-form.bg-gray-3.text-center {
+  padding-top: 80px;
+  padding-bottom: 125px;
+}
+
+.section-form.bg-gray-4 {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  padding-top: 96px;
+  padding-bottom: 30px;
+  background-color: #fff;
+}
+
+.section-form.reduced-padding {
+  padding-top: 72px;
+  padding-bottom: 72px;
+}
+
+.section-form.image-background-section {
+  position: relative;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  min-height: 696px;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+  -webkit-flex-direction: column;
+  -ms-flex-direction: column;
+  flex-direction: column;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  -webkit-box-align: center;
+  -webkit-align-items: center;
+  -ms-flex-align: center;
+  align-items: center;
+  background-color: #000;
+  color: #fff;
+}
+
+.section-form.help-center-section {
+  padding-top: 48px;
+}
+
+.section-form.featured-blog-section {
+  padding-top: 48px;
+  padding-bottom: 72px;
+}
+
+.section-form.no-bottom-space {
+  padding-bottom: 0px;
+}
+
+.section-form.no-top-padding {
+  padding-top: 0px;
+}
+
+.section-form.bg-primary-1 {
+  padding-top: 20px;
+  background-color: #0ed2cc;
+  color: #111;
+}
+
+.section-form.no-bottom-padding {
+  padding-bottom: 0px;
+}
+
+.section-form.increased-padding {
+  padding-top: 144px;
+  padding-bottom: 144px;
+}
+
+.section-form.bg-primary-5 {
+  background-color: #0ed2cc;
+  color: #111;
+}
+
+.section-form.bg-primary-1-pay {
+  padding-top: 95px;
+  background-color: #0f7cfd;
+  color: #111;
+}
+
+.section-form.bg-primary-1-fin {
+  padding-top: 95px;
+  background-color: #feb425;
+  color: #feb425;
+}
+
+.section-form.bg-primary-2-fin {
+  padding-top: 40px;
+  background-color: #39007c;
+  color: #feb425;
+}
+
+.section-form.bg-primary-2-fin {
+  padding-top: 95px;
+  background-color: #e2e2e2;
+  color: #feb425;
 }
 
 @media screen and (min-width: 1920px) {
@@ -15346,6 +15499,15 @@ figcaption {
     -ms-grid-columns: 1fr 1fr;
     grid-template-columns: 1fr 1fr;
   }
+
+  .section-form.increased-padding {
+    padding-top: 96px;
+    padding-bottom: 96px;
+  }
+
+  .section-form.bg-primary-2-fin {
+    padding-top: 40px;
+  }
 }
 
 @media screen and (max-width: 767px) {
@@ -16895,6 +17057,20 @@ figcaption {
     top: 0px;
     margin-right: 0px;
     margin-bottom: 24px;
+  }
+
+  .section-form {
+    padding-top: 72px;
+    padding-bottom: 72px;
+  }
+
+  .section-form.image-background-section {
+    min-height: auto;
+  }
+
+  .section-form.increased-padding {
+    padding-top: 72px;
+    padding-bottom: 72px;
   }
 }
 
@@ -20236,6 +20412,10 @@ figcaption {
     padding-bottom: 50px;
   }
 
+  .section-comp.bg-primary-3 {
+    padding-bottom: 50px;
+  }
+
   .main-container-2-pay-2-copy {
     padding: 0px 18px;
   }
@@ -20352,6 +20532,41 @@ figcaption {
   .quotes-grid-3 {
     -ms-grid-columns: 1fr;
     grid-template-columns: 1fr;
+  }
+
+  .main-container-2-form {
+    padding: 0px 18px;
+  }
+
+  .section-form {
+    padding-bottom: 20px;
+    text-align: center;
+  }
+
+  .section-form.bg-gray-4 {
+    padding-top: 20px;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+    -webkit-flex-direction: column;
+    -ms-flex-direction: column;
+    flex-direction: column;
+  }
+
+  .section-form.bg-primary-1-pay {
+    padding-bottom: 50px;
+  }
+
+  .section-form.bg-primary-1-fin {
+    padding-bottom: 50px;
+  }
+
+  .section-form.bg-primary-2-fin {
+    padding-top: 50px;
+    padding-bottom: 50px;
+  }
+
+  .section-form.bg-primary-2-fin {
+    padding-bottom: 50px;
   }
 }
 
